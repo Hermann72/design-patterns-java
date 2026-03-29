@@ -6,6 +6,7 @@ import com.hero.patterns.creational.factory.FactoryMethodDemo;
 import com.hero.patterns.creational.prototype.PrototypeDemo;
 import com.hero.patterns.creational.singleton.SingletonDemo;
 import com.hero.patterns.structural.adapter.AdapterDemo;
+import com.hero.patterns.structural.decorator.DecoratorDemo;
 
 public class Main {
   public static void main(String[] args) {
@@ -18,8 +19,10 @@ public class Main {
 //    BuilderDemo.run();
 //    System.out.println("\n" + "=".repeat(40) + "\n" );
 //    PrototypeDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    AdapterDemo.run();
     System.out.println("\n" + "=".repeat(40) + "\n" );
-    AdapterDemo.run();
+    DecoratorDemo.run();
   }
 }
 
