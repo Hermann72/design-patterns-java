@@ -9,26 +9,29 @@ import com.hero.patterns.structural.adapter.AdapterDemo;
 import com.hero.patterns.structural.composite.CompositeDemo;
 import com.hero.patterns.structural.decorator.DecoratorDemo;
 import com.hero.patterns.structural.facade.FacadeDemo;
+import com.hero.patterns.structural.proxy.ProxyDemo;
 
 public class Main {
   public static void main(String[] args) {
-    SingletonDemo.run();
+//    SingletonDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    FactoryMethodDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    AbstractFactoryDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    BuilderDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    PrototypeDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    AdapterDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    DecoratorDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    FacadeDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    CompositeDemo.run();
     System.out.println("\n" + "=".repeat(40) + "\n" );
-    FactoryMethodDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    AbstractFactoryDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    BuilderDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    PrototypeDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    AdapterDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    DecoratorDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    FacadeDemo.run();
-    System.out.println("\n" + "=".repeat(40) + "\n" );
-    CompositeDemo.run();
+    ProxyDemo.run();
   }
 }
 
