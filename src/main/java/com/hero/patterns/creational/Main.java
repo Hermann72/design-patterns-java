@@ -6,6 +6,7 @@ import com.hero.patterns.creational.factory.FactoryMethodDemo;
 import com.hero.patterns.creational.prototype.PrototypeDemo;
 import com.hero.patterns.creational.singleton.SingletonDemo;
 import com.hero.patterns.structural.adapter.AdapterDemo;
+import com.hero.patterns.structural.composite.CompositeDemo;
 import com.hero.patterns.structural.decorator.DecoratorDemo;
 import com.hero.patterns.structural.facade.FacadeDemo;
 
@@ -26,6 +27,8 @@ public class Main {
     DecoratorDemo.run();
     System.out.println("\n" + "=".repeat(40) + "\n" );
     FacadeDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    CompositeDemo.run();
   }
 }
 
