@@ -1,5 +1,6 @@
 package com.hero.patterns.creational;
 
+import com.hero.patterns.behavioral.strategy.StrategyDemo;
 import com.hero.patterns.creational.abstractfactory.AbstractFactoryDemo;
 import com.hero.patterns.creational.builder.BuilderDemo;
 import com.hero.patterns.creational.factory.FactoryMethodDemo;
@@ -13,25 +14,27 @@ import com.hero.patterns.structural.proxy.ProxyDemo;
 
 public class Main {
   public static void main(String[] args) {
-//    SingletonDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    FactoryMethodDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    AbstractFactoryDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    BuilderDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    PrototypeDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    AdapterDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    DecoratorDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    FacadeDemo.run();
-//    System.out.println("\n" + "=".repeat(40) + "\n" );
-//    CompositeDemo.run();
+    SingletonDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    FactoryMethodDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    AbstractFactoryDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    BuilderDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    PrototypeDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    AdapterDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    DecoratorDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    FacadeDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    CompositeDemo.run();
     System.out.println("\n" + "=".repeat(40) + "\n" );
     ProxyDemo.run();
+    System.out.println("\n" + "=".repeat(40) + "\n" );
+    StrategyDemo.run();
   }
 }
 
