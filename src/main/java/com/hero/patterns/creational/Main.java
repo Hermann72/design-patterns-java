@@ -1,5 +1,6 @@
 package com.hero.patterns.creational;
 
+import com.hero.patterns.behavioral.chainofresponsibility.ChainDemo;
 import com.hero.patterns.behavioral.command.Command;
 import com.hero.patterns.behavioral.command.CommandDemo;
 import com.hero.patterns.behavioral.observer.ObserverDemo;
@@ -43,8 +44,10 @@ public class Main {
 //    ObserverDemo.run();
 //    System.out.println("\n" + "=".repeat(40) + "\n" );
 //    CommandDemo.run();
+//    System.out.println("\n" + "=".repeat(40) + "\n" );
+//    TemplateMethodDemo.run();
     System.out.println("\n" + "=".repeat(40) + "\n" );
-    TemplateMethodDemo.run();
+    ChainDemo.run();
   }
 }
 
